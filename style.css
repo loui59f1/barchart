@@ -1,0 +1,29 @@
+* {
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Montserrat";
+  color: purple;
+}
+
+p {
+  font-family: "Montserrat";
+}
+
+.bar {
+  flex-grow: 1;
+  border-radius: 1px;
+  background: purple;
+  margin-right: 5px;
+}
+
+#bar_box {
+  display: flex;
+
+  flex-direction: row;
+  align-items: flex-end;
+  height: 200px;
+  margin-top: 50px;
+}
